@@ -6,3 +6,15 @@ spec:
   profile:
     displayName: Basso
     email: abass0@redhat.com
+  memberOf:
+    - platform-engineering
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-engineering
+spec:
+  type: team
+  children: []
+  members:
+    - abass0
